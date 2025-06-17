@@ -1,0 +1,60 @@
+body 
+{
+  background-color: powderblue;
+}
+
+
+.titolo
+{
+    color: red;
+    font-family: verdana;
+    font-size: 200%;
+    text-align: center;
+}
+
+.sommario
+{
+    font-family: verdana;
+    font-size: 100%;
+}
+
+.titoloQuiz
+{
+    color: red;
+    font-family: verdana;
+    font-size: 100%;
+    text-align: center;
+}
+
+.testoQuiz
+{
+    font-size: 100%;
+}
+
+.containerPrinc
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containerQuiz
+{
+    display: flex;
+    flex-direction: row;
+    background-color:aquamarine;
+    justify-content: space-around;
+}
+.quiz
+{
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+}
+.foot
+{
+    color: rgb(208, 255, 0);
+    font-family: courier;
+    font-size: 100%;
+}
